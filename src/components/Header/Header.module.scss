@@ -1,0 +1,52 @@
+.header {
+  background-color: #000000;
+  font-family: "SF Pro Display";
+
+  .container {
+    max-width: 1680px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+    .box__left {
+      display: flex;
+      justify-content: space-evenly;
+
+      .title {
+        width: 206px;
+        height: 53px;
+        text-align: center;
+        padding: 15px 0;
+        font-family: "SF Pro Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #ffffff;
+      }
+    }
+
+    .box__right {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .lang {
+        display: flex;
+        align-items: center;
+        font-family: "SF Pro Display";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        padding-right: 100px;
+        color: #ffffff;
+        cursor: pointer;
+      }
+    }
+    .line {
+      border-bottom: #ffffff 1px solid;
+    }
+  }
+}

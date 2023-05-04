@@ -1,0 +1,17 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 132px;
+  height: 44px;
+  padding: 0 20px;
+  background: #e00c69;
+  border: 2px solid #e00c69;
+  border-radius: 9px;
+
+  font-size: 18px;
+  line-height: 100%;
+  cursor: pointer;
+
+  color: #ffffff;
+}
