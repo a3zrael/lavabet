@@ -1,0 +1,36 @@
+.footer {
+  background-color: #000000;
+  font-family: "SF Pro Display";
+  color: #fff;
+
+  .container {
+    max-width: 1680px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .box_right {
+    display: flex;
+    align-items: center;
+
+    .box_tg {
+      display: flex;
+      align-items: center;
+      .tg__text {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        .tg__img {
+          padding: 10px;
+        }
+      }
+    }
+  }
+
+  .text_contact {
+    color: #615760;
+    padding: 0 10px 0 0;
+  }
+}
