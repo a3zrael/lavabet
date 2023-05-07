@@ -9,20 +9,19 @@ const Footer = () => {
       <div className={styles.container}>
         <div className={styles.box_right}>
           <div className={styles.box_tg}>
-            <p className={styles.tg__text}>
-              <img src={tg} className={styles.tg__img} alt="" />
-              @lafabet
-            </p>
+            <img src={tg} className={styles.tg__img} alt="" />
+            <p className={styles.tg__text}>@lafabet</p>
           </div>
           <div className={styles.box_tg}>
-            <p className={styles.tg__text}>
-              <img src={tg} className={styles.tg__img} alt="" />
-              @lafabet
-            </p>
+            <img src={tg} className={styles.tg__img} alt="" />
+            <p className={styles.tg__text}>@lafabet</p>
           </div>
         </div>
         <div className={styles.box_centr}>
-          <span className={styles.text_contact}>Contacts</span> info@lafabet.com
+          <p>
+            <span className={styles.text_contact}>Contacts</span>{" "}
+            info@lafabet.com
+          </p>
         </div>
         <div className={styles.box_left}>FAQ Terms & Conditions</div>
       </div>
