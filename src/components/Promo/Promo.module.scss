@@ -1,0 +1,54 @@
+.section_screen {
+  height: 100vh;
+  background: url(./img/bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  .section_inner {
+    .section_title_box {
+      .section_title {
+        font-family: "SF Pro Display";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 100px;
+        line-height: 89%;
+        color: #ffffff;
+      }
+    }
+    .section_btn_partner {
+      .section_btn {
+        width: 537px;
+        height: 90px;
+        font-family: "SF Pro Display";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 33.08px;
+        line-height: 98%;
+        left: calc(50% - 537px / 2 + 633.5px);
+        top: calc(50% - 90px / 2 - 2052.5px);
+        background: #e00c69;
+        color: #ffffff;
+      }
+      .section_btn_img {
+        width: 10px;
+      }
+    }
+    .section_list_promo {
+      display: flex;
+      .section_list {
+        color: #ffffff;
+        border-left: 1px solid #373737;
+        flex-direction: row;
+      }
+      .section_firts {
+        color: #ffffff;
+      }
+      .section_second {
+      }
+      .section_last {
+        .section_last_text {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

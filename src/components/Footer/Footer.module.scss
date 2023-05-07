@@ -1,36 +1,50 @@
 .footer {
+  display: flex;
+  width: 100%;
   background-color: #000000;
   font-family: "SF Pro Display";
   color: #fff;
 
   .container {
-    max-width: 1680px;
+    max-width: 100%;
     height: 100px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
     margin: 0 auto;
+    padding: 0 63px;
   }
+
   .box_right {
     display: flex;
     align-items: center;
+    justify-content: start;
 
     .box_tg {
       display: flex;
       align-items: center;
+      justify-content: space-evenly;
+      .tg__img {
+        padding: 0 12px 0 0;
+      }
       .tg__text {
-        display: flex;
-        align-items: center;
-        margin: 10px;
-        .tg__img {
-          padding: 10px;
-        }
+        padding: 0 25px 0 0;
       }
     }
   }
 
-  .text_contact {
-    color: #615760;
-    padding: 0 10px 0 0;
+  .box_centr {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    .text_contact {
+      color: #615760;
+    }
+  }
+
+  .box_left {
+    align-items: center;
+    justify-content: end;
   }
 }
