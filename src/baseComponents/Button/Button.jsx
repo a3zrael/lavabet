@@ -7,7 +7,7 @@ const Button = ({ value, className, classNameImg }) => {
   return (
     <div className={styles.box__btn}>
       <button type="button" className={classNames(styles.btn, className)}>
-        {value}
+        <span>{value}</span>
         <img src={arrow} alt="" className={classNameImg} />
       </button>
     </div>
