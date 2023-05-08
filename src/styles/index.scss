@@ -1,0 +1,13 @@
+@import url(./fonts/fonts.scss);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF";
+  font-weight: 400;
+}
+
+body {
+  overflow-x: hidden;
+}
