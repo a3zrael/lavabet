@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+
 import Header from "../Header/Header.jsx";
 import Footer from "../Footer/Footer.jsx";
 import Promo from "../Promo/Promo.jsx";
+// import Layout from '../../layout/Layout';
 
 const App = () => {
   return (

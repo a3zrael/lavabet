@@ -1,0 +1,25 @@
+.section_list_promo {
+  display: flex;
+  padding: 0 0 0 150px;
+  max-width: 1200px;
+
+  .section_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    width: 40%;
+    height: 150px;
+    border-left: 1px solid #373737;
+    padding: 25px;
+    font-family: "SF";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 98%;
+    color: #ffffff;
+    img {
+      width: 51px;
+    }
+  }
+}
