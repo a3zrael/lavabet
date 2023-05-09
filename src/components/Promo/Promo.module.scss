@@ -1,8 +1,16 @@
 .section_screen {
-  height: 100vh;
-  background: url(./img/bg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  min-height: 100vh;
+
+  video {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+
   .section_inner {
     .section_title_box {
       .section_title {
@@ -26,7 +34,7 @@
         height: 90px;
         font-family: "SF";
         bottom: 80px;
-        right: -30px;
+        right: -35px;
         padding: 0 100px 0 50px;
         font-style: normal;
         font-weight: 700px;
@@ -34,9 +42,6 @@
         line-height: 98%;
         background: #e00c69;
         color: #ffffff;
-        // border-radius: 0px;
-        // border-top-left-radius: 20px;
-        // border-bottom-left-radius: 20px;
         transform: skew(33deg, 0);
         text-decoration: none;
         span {
@@ -58,47 +63,6 @@
         position: absolute;
         top: 80px;
         left: 20px;
-      }
-    }
-
-    .section_list_promo {
-      display: flex;
-      padding: 0 0 0 150px;
-      max-width: 1200px;
-
-      .section_firts {
-        .section_firts_text {
-          // padding: 50px 0 0 0;
-        }
-      }
-      .section_second {
-        .section_second_text {
-          // padding: 50px 0 0 0;
-        }
-      }
-      .section_last {
-        .section_last_text {
-          // padding: 50px 0 0 0;
-        }
-      }
-    }
-    .section_list {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 40px;
-      width: 40%;
-      height: 150px;
-      border-left: 1px solid #373737;
-      padding: 25px;
-      font-family: "SF";
-      font-style: normal;
-      font-weight: 600;
-      font-size: 22px;
-      line-height: 98%;
-      color: #ffffff;
-      img {
-        width: 51px;
       }
     }
   }
