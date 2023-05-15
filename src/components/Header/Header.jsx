@@ -21,7 +21,7 @@ const Header = () => {
             En
             <img src={arrow} className="arrowUp" alt="" />
           </div>
-          <Button value="Sign up" />
+          <Button value="Sign up" className={styles.section_btn} />
         </div>
       </div>
       <div className={styles.container}>

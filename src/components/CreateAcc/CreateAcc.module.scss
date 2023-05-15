@@ -1,0 +1,80 @@
+.section_screen {
+  // height: 90vh;
+  background-color: black;
+
+  .section_inner {
+    max-width: 1650px;
+    margin: 0 auto;
+
+    .wrap {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      padding: 150px 0;
+
+      .section_title {
+        max-width: 50%;
+        font-family: "SF";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 104px;
+        line-height: 89%;
+        color: #ffffff;
+      }
+      .section_form {
+        display: grid;
+        max-width: 50%;
+        grid-template-columns: 1fr 1fr;
+        gap: 26px;
+        margin-bottom: 26px;
+
+        .section_checkbox {
+          label {
+            // padding: 20px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 104%;
+            /* or 18px */
+
+            letter-spacing: 0.01em;
+
+            color: #ffffff;
+          }
+        }
+      }
+
+      .btn {
+        padding: 10px 50px;
+        font-size: 26px;
+        line-height: 104%;
+
+        img {
+          padding-left: 20px;
+        }
+      }
+    }
+    .section_title_slider {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 60px;
+      line-height: 89%;
+      color: #ffffff;
+    }
+    .section_slider_box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+    }
+    .wrapper {
+      z-index: 2;
+      // width: 100%;
+      // max-height: 236px;
+      position: relative;
+      // max-width: 1200px;
+      padding: 80px 0 10px 0;
+      margin-top: -105px;
+    }
+  }
+}

@@ -3,15 +3,21 @@ import styles from "./WhatUNeed.module.scss";
 
 import Button from "../../baseComponents/Button/Button.jsx";
 
-import bg from "./img/bg.svg";
+import { arrayData } from "./WhatUNeed.data";
+import { arrayData2 } from "./WhatUNeed.data";
+
+import SectionGrid from "../../baseComponents/SectionGrid/SectionGrid.jsx";
 
 const WhatUNeed = () => {
   return (
-    <div className={styles.section_screen}>
+    <section className={styles.section_screen}>
       <div className={styles.section_inner}>
         <div className={styles.section_title_btn}>
           <h2 className={styles.title}>
-            Everything you need is now at Lafabet.Partners
+            Everything you need{" "}
+            <span className={styles.title_text}>
+              is now at Lafabet.Partners
+            </span>
           </h2>
           <Button
             value="for each partner"
@@ -19,15 +25,20 @@ const WhatUNeed = () => {
             classNameImg={styles.section_btn_img}
           />
         </div>
-        <div className={styles.section_wrap}>
-          <h2 className={styles.title_enjoy}>Enjoy</h2>
-          <h3 className={styles.sub_title_enjoy}>
-            High daily profit promise you
-          </h3>
-          <div className={styles.grid_wrap}></div>
-        </div>
+        <SectionGrid
+          array={arrayData}
+          title={"Enjoy"}
+          subtitle={"High daily profit promise you"}
+          className={styles.box}
+        />
+        <SectionGrid
+          array={arrayData2}
+          title={"Use for free"}
+          subtitle={"Become the partner and earn big money"}
+          className={styles.box2}
+        />
       </div>
-    </div>
+    </section>
   );
 };
 

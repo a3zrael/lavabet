@@ -1,0 +1,35 @@
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+  min-height: 231px;
+  margin-top: 30px;
+  background-color: #33053b;
+  border-radius: 20px;
+  overflow: hidden;
+
+  .date_logo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 10px;
+    .date {
+      font-family: "SF";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 89%;
+      padding: 35px 0 0 20px;
+      color: #adadad;
+    }
+    img {
+      width: 100%;
+      mix-blend-mode: lighten;
+    }
+  }
+  .img_box {
+    img {
+      height: 100%;
+    }
+  }
+}

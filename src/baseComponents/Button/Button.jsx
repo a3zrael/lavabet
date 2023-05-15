@@ -5,12 +5,10 @@ import arrow from "./img/arrowRight.svg";
 
 const Button = ({ value, className, classNameImg }) => {
   return (
-    <div className={styles.box__btn}>
-      <button type="button" className={classNames(styles.btn, className)}>
-        <span>{value}</span>
-        <img src={arrow} alt="" className={classNameImg} />
-      </button>
-    </div>
+    <button type="button" className={classNames(styles.btn, className)}>
+      <span>{value}</span>
+      <img src={arrow} alt="" className={classNameImg} />
+    </button>
   );
 };
 
