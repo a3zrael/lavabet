@@ -1,17 +1,19 @@
 import React, { Component } from "react";
 
-import Header from "../Header/Header.jsx";
-import Footer from "../Footer/Footer.jsx";
 import Promo from "../Promo/Promo.jsx";
-// import Layout from '../../layout/Layout';
+import WhatUNeed from "../WhatUNeed/WhatUNeed.jsx";
+import Layout from "../../layout/Layout.jsx";
+import Earn from "../Earn/Earn.jsx";
+import CreateAcc from "../CreateAcc/CreateAcc.jsx";
 
 const App = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <Promo />
-      <Footer />
-    </div>
+      <WhatUNeed />
+      <Earn />
+      <CreateAcc />
+    </Layout>
   );
 };
 
