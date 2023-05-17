@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        <div className={styles.box_right}>
+        <div className={styles.box_left}>
           <div className={styles.box_tg}>
             <img src={tg} className={styles.tg__img} alt="" />
             <p className={styles.tg__text}>@lafabet</p>
@@ -23,7 +23,7 @@ const Footer = () => {
             info@lafabet.com
           </p>
         </div>
-        <div className={styles.box_left}>FAQ Terms & Conditions</div>
+        <div className={styles.box_right}>FAQ Terms & Conditions</div>
       </div>
     </footer>
   );

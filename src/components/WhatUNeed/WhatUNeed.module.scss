@@ -10,6 +10,16 @@
   z-index: 1;
   position: relative;
 
+  @media screen and (max-width: 375px) {
+    padding: 0 16px;
+  }
+
+  @media screen and (max-width: 375px) {
+    overflow: hidden;
+    margin-top: 0;
+    border-radius: 0;
+  }
+
   .circle {
     position: absolute;
     width: 100%;
@@ -20,11 +30,15 @@
     filter: blur(444px);
     bottom: -200px;
     left: -500px;
+
+    @media screen and (max-width: 375px) {
+      display: none;
+    }
   }
 
   .section_inner {
     margin: 0 auto;
-    width: 1650px;
+    max-width: 1650px;
 
     .section_title_btn {
       display: flex;
@@ -40,6 +54,12 @@
         font-size: 85px;
         line-height: 93%;
         color: #ffffff;
+
+        @media screen and (max-width: 375px) {
+          font-size: 23.139px;
+          line-height: 93%;
+          z-index: 10;
+        }
 
         .title_text {
           color: #544f58;

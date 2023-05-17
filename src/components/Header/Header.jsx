@@ -23,6 +23,7 @@ const Header = () => {
               options={list}
               defaultValue={list[0]}
               styles={colorStyles}
+              className="select"
             />
           </div>
           <Button value="Sign up" className={styles.section_btn} />
