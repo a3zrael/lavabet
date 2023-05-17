@@ -43,6 +43,26 @@ $color-white--light: #adadad;
 $color-dark-light: #6f547c;
 $color-violet: #190333;
 
+body {
+  &::-webkit-scrollbar {
+    width: 6px;
+    background: $black_50;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $secondary;
+    border-radius: 25px;
+    width: 100%;
+  }
+  background: $black;
+  overflow-x: hidden !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "SF", sans-serif;
+}
+
 .swiper-pagination-progressbar-fill {
   background: $purple-dark !important;
 }

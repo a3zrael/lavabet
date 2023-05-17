@@ -50,10 +50,19 @@
         padding-right: 100px;
         color: #ffffff;
         cursor: pointer;
+        select {
+          background: none;
+          border: none;
+          color: #ffffff;
+        }
       }
     }
     .line {
       border-bottom: #ffffff 1px solid;
     }
+  }
+  .container__scroll {
+    border-top: #ffffff54 1px solid;
+    padding: 20px 0;
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 
+import { useParallax } from "react-scroll-parallax";
 import styles from "./Earn.module.scss";
 import SectionGrid from "../../baseComponents/SectionGrid/SectionGrid.jsx";
 
@@ -10,7 +11,9 @@ const Earn = () => {
   return (
     <section className={styles.section_screen}>
       <div className={styles.section_screen_bg}>
-        <video src={videoBg} autoPlay loop muted></video>
+        <div className={styles.section_wrap}>
+          <video src={videoBg} autoPlay loop muted></video>
+        </div>
         <div className={styles.section_inner}>
           <SectionGrid
             array={array}

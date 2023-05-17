@@ -38,6 +38,7 @@ const WhatUNeed = () => {
           className={styles.box2}
         />
       </div>
+      <div className={styles.circle} />
     </section>
   );
 };
