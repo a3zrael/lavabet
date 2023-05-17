@@ -6,24 +6,18 @@
     margin: 0 auto;
     position: relative;
 
-    .circle {
-      position: absolute;
-      width: 100%;
-      height: 200px;
-      border-radius: 50%;
-      background-color: #e00c69;
-      z-index: 2;
-      filter: blur(444px);
-      bottom: 0;
-      left: 0;
-    }
-
     .wrap {
       display: flex;
       justify-content: space-between;
       margin: 0 auto;
       padding: 150px 0;
       position: relative;
+
+      @media screen and (max-width: 375px) {
+        flex-direction: column;
+        padding: 60px 16px;
+      }
+
       .circle {
         position: absolute;
         width: 100%;
@@ -36,7 +30,12 @@
         top: -50%;
         left: -30%;
         width: 100%;
+
+        @media screen and (max-width: 375px) {
+          height: 900px;
+        }
       }
+
       .section_title {
         max-width: 50%;
         font-family: "SF";
@@ -46,15 +45,29 @@
         line-height: 89%;
         color: #ffffff;
         z-index: 5;
+
+        @media screen and (max-width: 375px) {
+          font-weight: 600;
+          font-size: 55px;
+          line-height: 93%;
+          width: 100%;
+          padding: 20px 0;
+        }
       }
+
       .section_form {
         display: grid;
         width: 520px;
-
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 56px 56px;
         gap: 26px;
         margin-bottom: 26px;
+
+        @media screen and (max-width: 375px) {
+          grid-template-columns: 1fr;
+          max-width: 100%;
+          gap: 14px;
+        }
       }
 
       .section_select {
@@ -72,6 +85,7 @@
 
       .section_checkbox {
         padding: 20px;
+
         label {
           padding: 10px;
           font-style: normal;
@@ -93,6 +107,7 @@
         }
       }
     }
+
     .section_title_slider {
       margin: 0 0 25px 0;
       font-style: normal;
@@ -100,7 +115,14 @@
       font-size: 60px;
       line-height: 89%;
       color: #ffffff;
+
+      @media screen and (max-width: 375px) {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 93%;
+      }
     }
+
     .section_slider_box {
       display: flex;
       justify-content: space-between;

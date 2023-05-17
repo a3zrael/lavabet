@@ -1,6 +1,5 @@
 import React from "react";
 
-import { useParallax } from "react-scroll-parallax";
 import styles from "./Earn.module.scss";
 import SectionGrid from "../../baseComponents/SectionGrid/SectionGrid.jsx";
 

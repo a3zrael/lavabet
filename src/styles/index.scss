@@ -55,8 +55,22 @@ body {
   }
   background: $black;
   overflow-x: hidden !important;
-}
 
+  @media screen and (max-width: 375px) {
+    &::-webkit-scrollbar {
+      display: none;
+      width: 6px;
+      background: $black_50;
+    }
+    &::-webkit-scrollbar-thumb {
+      display: none;
+      background: $secondary;
+      border-radius: 25px;
+      width: 100%;
+    }
+    background: $black;
+  }
+}
 * {
   margin: 0;
   padding: 0;
