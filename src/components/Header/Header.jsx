@@ -1,4 +1,5 @@
 import React from "react";
+import Select from "react-select";
 
 import Button from "../../baseComponents/Button/Button.jsx";
 import ScrollWins from "./ScrollWins/ScrollWins.jsx";
@@ -6,7 +7,7 @@ import ScrollWins from "./ScrollWins/ScrollWins.jsx";
 import styles from "./Header.module.scss";
 
 import logo from "./img/Logo.svg";
-import arrow from "./img/arrowUp.svg";
+import { list, colorStyles } from "./Header.data.js";
 
 const Header = () => {
   return (
@@ -18,13 +19,16 @@ const Header = () => {
         </div>
         <div className={styles.box__right}>
           <div className={styles.lang}>
-            En
-            <img src={arrow} className="arrowUp" alt="" />
+            <Select
+              options={list}
+              defaultValue={list[0]}
+              styles={colorStyles}
+            />
           </div>
           <Button value="Sign up" className={styles.section_btn} />
         </div>
       </div>
-      <div className={styles.container}>
+      <div className={styles.container__scroll}>
         <ScrollWins />
       </div>
     </header>
