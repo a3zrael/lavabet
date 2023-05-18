@@ -50,7 +50,7 @@ const CreateAcc = () => {
 
         <Swiper
           className={classNames("mySwiper", styles.wrapper)}
-          slidesPerView={2}
+          slidesPerView={1}
           spaceBetween={30}
           modules={[Pagination, Navigation]}
           grabCursor

@@ -48,7 +48,7 @@
 
         @media screen and (max-width: 375px) {
           font-weight: 600;
-          font-size: 55px;
+          font-size: 45px;
           line-height: 93%;
           width: 100%;
           padding: 20px 0;
@@ -102,6 +102,13 @@
         font-size: 26px;
         line-height: 104%;
 
+        @media screen and (max-width: 375px) {
+          font-weight: 600;
+          font-size: 18px;
+          padding: 10px 20px;
+          line-height: 93%;
+        }
+
         img {
           padding-left: 20px;
         }
@@ -117,8 +124,9 @@
       color: #ffffff;
 
       @media screen and (max-width: 375px) {
+        padding: 0 0 0 16px;
         font-weight: 600;
-        font-size: 40px;
+        font-size: 30px;
         line-height: 93%;
       }
     }

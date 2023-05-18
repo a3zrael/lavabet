@@ -1,36 +1,56 @@
 .wrap {
   display: flex;
   justify-content: space-between;
-  width: 750px;
+  max-width: 750px;
   min-height: 231px;
   margin-top: 30px;
   background-color: #33053b;
   border-radius: 20px;
   overflow: hidden;
 
+  @media screen and (max-width: 375px) {
+    max-width: 336px;
+    min-height: 0;
+    height: 120px;
+    margin: 20px auto 0 auto;
+  }
+
   .date_logo {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 0 10px;
-
     .date {
       font-family: "SF";
       font-style: normal;
       font-weight: 500;
-      font-size: 24px;
+      font-size: 32px;
       line-height: 89%;
       padding: 35px 0 0 20px;
       color: #adadad;
+
+      @media screen and (max-width: 375px) {
+        padding: 10px 0px;
+        font-size: 17px;
+      }
     }
+
     img {
-      width: 100%;
+      width: 60%;
       mix-blend-mode: lighten;
+
+      @media screen and (max-width: 375px) {
+        width: 90%;
+      }
     }
   }
+
   .img_box {
     img {
       height: 100%;
+      @media screen and (max-width: 375px) {
+        height: 100%;
+      }
     }
   }
 }

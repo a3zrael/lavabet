@@ -48,6 +48,10 @@
       padding: 130px 0 0 0;
       text-align: center;
 
+      @media screen and (max-width: 375px) {
+        padding: 60px 0;
+      }
+
       .title {
         font-style: normal;
         font-weight: 600;
@@ -88,9 +92,15 @@
     }
     .box {
       margin: 150px 0 0 0;
+      @media screen and (max-width: 375px) {
+        margin: 60px 0;
+      }
     }
     .box2 {
       padding: 150px 0 290px 0;
+      @media screen and (max-width: 375px) {
+        padding: 60px 0;
+      }
     }
   }
 }
