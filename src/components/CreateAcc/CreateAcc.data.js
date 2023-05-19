@@ -46,6 +46,7 @@ export const colorStyles = {
         borderRadius: '5px',
         padding: '5px',
     }),
+
     multiValueLabel: () => ({
         color: 'white ',
         background: '#black',

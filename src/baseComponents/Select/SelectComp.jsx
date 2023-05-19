@@ -16,6 +16,12 @@ const SelectComp = (props) => {
       isMulti
       options={options}
       styles={styles}
+      // className={cx(css(getStyles("option", props)), {
+      //   option: true,
+      //   "option--is-disabled": isDisabled,
+      //   "option--is-focused": isFocused,
+      //   "option--is-selected": isSelected,
+      // })}
     />
   );
 };

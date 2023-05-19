@@ -3,13 +3,13 @@
     .section_title_grid {
       font-style: normal;
       font-weight: 600;
-      font-size: 190px;
+      font-size: 10vw;
       background: linear-gradient(110.61deg, #e00c69 13.52%, #ce03ae 82.1%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
 
-      @media screen and (max-width: 375px) {
+      @media screen and (max-width: 767px) {
         font-style: normal;
         font-weight: 600;
         font-size: 47px;
@@ -21,12 +21,12 @@
       padding: 0 0 0 10px;
       font-style: normal;
       font-weight: 400;
-      font-size: 21px;
+      font-size: 2vw;
       line-height: 104%;
       color: #ffffff;
       opacity: 0.5;
 
-      @media screen and (max-width: 375px) {
+      @media screen and (max-width: 767px) {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -40,7 +40,7 @@
     display: flex;
     padding: 60px 0;
 
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 767px) {
       flex-wrap: wrap;
       align-items: center;
       margin: 0 auto;
@@ -57,7 +57,7 @@
       border: 0.7px solid #6f547c;
       border-radius: 30px;
 
-      @media screen and (max-width: 375px) {
+      @media screen and (max-width: 767px) {
         width: 43%;
         height: 193.15px;
       }

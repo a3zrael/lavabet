@@ -3,10 +3,11 @@
   padding: 0 0 0 150px;
   max-width: 1200px;
 
-  @media (max-width: 375px) {
+  @media (max-width: 767px) {
     flex-direction: column;
     padding: 0;
   }
+
   .section_list {
     display: flex;
     flex-direction: column;
@@ -23,7 +24,7 @@
     line-height: 98%;
     color: #ffffff;
 
-    @media (max-width: 375px) {
+    @media (max-width: 767px) {
       width: 100%;
       flex-direction: row;
       align-items: center;

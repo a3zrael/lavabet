@@ -13,6 +13,10 @@
   color: #fff;
   resize: none;
 
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+
   &::placeholder {
     color: #fff;
   }
