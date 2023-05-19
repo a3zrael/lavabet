@@ -6,10 +6,16 @@ import icon1 from "./img/icon1.svg";
 import icon2 from "./img/icon2.svg";
 import icon3 from "./img/icon3.svg";
 
-const PromoList = () => {
+const PromoList = ({ className }) => {
   return (
     <div className={styles.section_list_promo}>
-      <div className={classNames(styles.section_firts, styles.section_list)}>
+      <div
+        className={classNames(
+          styles.section_firts,
+          styles.section_list,
+          className
+        )}
+      >
         <img src={icon1} alt="" />
         <p className={styles.section_firts_text}>
           Make a cool product for your traffic with a high CR

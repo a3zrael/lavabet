@@ -13,9 +13,10 @@
       padding: 150px 0;
       position: relative;
 
-      @media screen and (max-width: 375px) {
+      @media screen and (max-width: 767px) {
         flex-direction: column;
-        padding: 60px 16px;
+        padding: 30px 16px;
+        width: 100%;
       }
 
       .circle {
@@ -31,8 +32,8 @@
         left: -30%;
         width: 100%;
 
-        @media screen and (max-width: 375px) {
-          height: 900px;
+        @media screen and (max-width: 767px) {
+          display: none;
         }
       }
 
@@ -41,32 +42,35 @@
         font-family: "SF";
         font-style: normal;
         font-weight: 600;
-        font-size: 104px;
+        font-size: 9vw;
         line-height: 89%;
         color: #ffffff;
         z-index: 5;
 
-        @media screen and (max-width: 375px) {
+        @media screen and (max-width: 767px) {
           font-weight: 600;
-          font-size: 55px;
+          font-size: 45px;
           line-height: 93%;
-          width: 100%;
           padding: 20px 0;
+          max-width: 767px;
         }
       }
+      .form_wrap {
+        width: 100%;
 
-      .section_form {
-        display: grid;
-        width: 520px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 56px 56px;
-        gap: 26px;
-        margin-bottom: 26px;
+        .section_form {
+          display: grid;
+          width: 520px;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 56px 56px;
+          gap: 26px;
+          margin-bottom: 26px;
 
-        @media screen and (max-width: 375px) {
-          grid-template-columns: 1fr;
-          max-width: 100%;
-          gap: 14px;
+          @media screen and (max-width: 767px) {
+            grid-template-columns: 1fr;
+            width: 100%;
+            gap: 14px;
+          }
         }
       }
 
@@ -102,6 +106,13 @@
         font-size: 26px;
         line-height: 104%;
 
+        @media screen and (max-width: 767px) {
+          font-weight: 600;
+          font-size: 18px;
+          padding: 10px 20px;
+          line-height: 93%;
+        }
+
         img {
           padding-left: 20px;
         }
@@ -116,9 +127,10 @@
       line-height: 89%;
       color: #ffffff;
 
-      @media screen and (max-width: 375px) {
+      @media screen and (max-width: 767px) {
+        padding: 0 0 0 16px;
         font-weight: 600;
-        font-size: 40px;
+        font-size: 30px;
         line-height: 93%;
       }
     }

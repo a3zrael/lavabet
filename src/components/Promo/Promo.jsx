@@ -24,7 +24,6 @@ const Promo = () => {
         className={styles.section_btn}
         classNameImg={styles.section_btn_img}
       />
-
       <div className={styles.section_inner}>
         <div className={styles.section_wrap}>
           <div className={styles.section_title_box}>
@@ -36,7 +35,7 @@ const Promo = () => {
             <img className={styles.arrow} src={arrowDown} alt="" />
           </div>
         </div>
-        <PromoList />
+        <PromoList className={styles.box__list} />
       </div>
     </section>
   );

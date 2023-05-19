@@ -6,7 +6,7 @@ const CardSlider = ({ className, date, logo, img }) => {
     <div className={styles.wrap}>
       <div className={styles.date_logo}>
         <p className={styles.date}>{date}</p>
-        <img src={logo} alt="" />
+        <img src={logo} alt="" className={styles.logo} />
       </div>
       <div className={styles.img_box}>
         <img src={img} alt="" />

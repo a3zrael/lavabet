@@ -6,7 +6,9 @@
   margin-top: -130px;
   position: relative;
   z-index: 3;
-  @media screen and (max-width: 375px) {
+
+  @media screen and (max-width: 767px) {
+    margin-top: 0;
     border-radius: 0;
   }
   .section_screen_bg {
@@ -16,8 +18,9 @@
     overflow: hidden;
     position: relative;
 
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 767px) {
       background: url(./img/bgMov3.svg);
+      background-size: cover;
     }
 
     .section_wrap {
@@ -38,28 +41,33 @@
         bottom: 0;
         right: 0;
 
-        @media screen and (max-width: 375px) {
+        @media screen and (max-width: 767px) {
           display: none;
         }
       }
     }
   }
 }
+
 .section_inner {
   margin: 0 auto;
   max-width: 1650px;
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 767px) {
     padding: 0 16px;
   }
 
   .section_cards {
     padding: 120px 0 0 0;
-    @media screen and (max-width: 375px) {
-      padding: 0;
+    @media screen and (max-width: 767px) {
+      padding: 70px 0;
     }
   }
   .cards {
     padding: 100px 0;
+
+    @media screen and (max-width: 767px) {
+      padding: 50px 0;
+    }
   }
 }

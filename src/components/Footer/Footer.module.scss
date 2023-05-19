@@ -15,7 +15,7 @@
     margin: 0 auto;
     padding: 0 63px;
 
-    @media (max-width: 375px) {
+    @media (max-width: 767px) {
       flex-direction: column;
       height: 100%;
     }
@@ -26,7 +26,7 @@
     align-items: center;
     justify-content: start;
 
-    @media (max-width: 375px) {
+    @media (max-width: 767px) {
       border: 2px solid #2c2c2c;
       border-radius: 16px;
       padding: 10px 15px;
@@ -39,6 +39,10 @@
       justify-content: space-evenly;
       .tg__img {
         padding: 0 12px 0 0;
+        @media (max-width: 767px) {
+          width: 40%;
+          padding: 0 10px;
+        }
       }
       .tg__text {
         padding: 0 25px 0 0;
@@ -51,9 +55,9 @@
     justify-content: center;
     margin: 0 auto;
 
-    @media (max-width: 375px) {
+    @media (max-width: 767px) {
       border: 2px solid #2c2c2c;
-      padding: 15px 20px;
+      padding: 10px 20px;
       border-radius: 16px;
       margin: 10px 0;
     }
@@ -67,7 +71,7 @@
     align-items: center;
     justify-content: end;
 
-    @media (max-width: 375px) {
+    @media (max-width: 767px) {
       margin: 10px 0;
 
       background: linear-gradient(110.61deg, #e00c69 13.52%, #ce03ae 82.1%);
