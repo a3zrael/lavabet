@@ -65,7 +65,10 @@ const CreateAcc = () => {
                 />
                 <Input
                   onChange={(e) =>
-                    setData((prev) => ({ ...prev, pass: e.target.value }))
+                    setData((prev) => ({
+                      ...prev,
+                      pass: MD5(e.target.value).toString(),
+                    }))
                   }
                   type="password"
                   placeholder="Password"
