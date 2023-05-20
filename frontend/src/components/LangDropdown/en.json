@@ -1,0 +1,525 @@
+{
+  "error" : {
+    "repeat" : "User with this email has already registered",
+    "contact" : "Contact with",
+    "pass" : "Password must be longer than 9 characters, uppercase and lowercase letters, and numbers"
+  },
+  "register" : {
+    "title" : "Thanks!",
+    "subtitle" : "To confirm registration, contact:"
+  },
+  "slider" : {
+    "1" : {
+      "text": "publisher",
+      "text2": "successfully retested the KPI",
+      "price": "#493"
+    },
+    "2" : {
+      "text": "the payments were made on time",
+      "text2": "",
+      "price": ""
+    },
+    "3" : {
+      "text": "the CPA rates increased",
+      "text2": "",
+      "price": ""
+    },
+    "4" :  {
+      "text": "more than",
+      "text2": " are awaiting release",
+      "price": " 5 Geo"
+    },
+    "5" :  {
+      "text": "the highest payouts",
+      "text2": "",
+      "price": ""
+    },
+    "6" :   {
+      "text": "the best product retention",
+      "text2": "",
+      "price": ""
+    },
+    "7" :   {
+      "text": "publisher",
+      "text2": "received the best CR",
+      "price": "#410"
+    },
+    "8" :  {
+      "text": "instant support",
+      "text2": "",
+      "price": ""
+    },
+    "9" :  {
+      "text": "expert managers",
+      "text2": "",
+      "price": ""
+    }
+  },
+  "meta" : {
+    "title" : "LafaBet Casino Affiliate Program",
+    "description" : "The rest of the text - The highest CPA rates in more than 10 countries from the official partner of Lafabet casino! Revshare up to 60%, high deposit conversion rate, mobile applications 🎲👍"
+  },
+  "header": {
+    "text": "Enjoy and earn",
+    "signin": "Sign in",
+    "partner": "Partner",
+    "withdrew": "withdrew"
+  },
+  "experience": {
+    "label": "Become the partner",
+    "title": "Casino Betting Affiliate Platform",
+    "text": {
+      "1": "Make a cool product for your traffic with a high CR",
+      "2": "Create a stable and comfortable environment",
+      "3": "Communicate with Partners in their language"
+    }
+  },
+  "about": {
+    "header": {
+      "1": "Everything you need",
+      "2": "is now at Lafabet.Partners"
+    },
+    "button": "for each partner",
+    "subTitle": {
+      "1": "High daily profit </br> promise you",
+      "2": "Become the partner and earn big money"
+    },
+    "title": {
+      "1": "Enjoy",
+      "2": "Use for</br> free"
+    },
+    "firstList": {
+      "1": "Direct </br> advertiser",
+      "2": "More than 5 converting geos",
+      "3": "High player lifetime",
+      "4": "Integration with your AD Pixel"
+    },
+    "secondList": {
+      "1": "Experience of personal managers",
+      "2": "Webview & PWA Apps",
+      "3": "Ad creatives",
+      "4": "Free spy-service"
+    }
+  },
+  "earn": {
+    "title": "Earn",
+    "subTitle": "Become the partner and earn big money",
+    "cardsList": {
+      "1": "Comfortable and understandable KPI",
+      "2": "Low hold up to 7 days",
+      "3": "CPA rates from $100 for mindep / baseline",
+      "4": "Fast payouts"
+    }
+  },
+  "create": {
+    "attach": "attach",
+    "selectPlaceholder": "Select...",
+    "country" : {
+      "1": "Moscow",
+      "2": "Moscow",
+      "3": "Amsterdam",
+      "4": "Barcelona"
+    },
+    "date": {
+      "1": "26th of April 2022",
+      "2": "5-6th of October 2022",
+      "3": "5—8th of July 2022",
+      "4": "6—7th of July"
+    },
+    "banners": "See you at the:",
+    "title": "Create",
+    "subTitle": "an account",
+    "username": "Username",
+    "password": "Password",
+    "select": {
+      "1": { "value": "Web sites", "label": "Web sites" },
+      "2": { "value": "Doorways", "label": "Doorways" },
+      "3": { "value": "Contextual advertising", "label": "Contextual advertising" },
+      "4": { "value": "Контекстная реклама на бренд", "label": "Контекстная реклама на бренд" },
+      "5": {
+        "value": "Contextual advertising for a brand",
+        "label": "Contextual advertising for a brand"
+      },
+      "6": { "value": "Push notifications", "label": "Push notifications" },
+      "7": {
+        "value": "Social networks: targeted advertising",
+        "label": "Social networks: targeted advertising"
+      },
+      "8": {
+        "value": "Social networks: publics, games, application",
+        "label": "Social networks: publics, games, application"
+      },
+      "9": { "value": "Mobile applications", "label": "Mobile applications" },
+      "10": { "value": "Email - mailing", "label": "Email - mailing" },
+      "11": { "value": "SMS - mailing", "label": "SMS - mailing" },
+      "12": { "value": "Mobile traffic", "label": "Mobile traffic" },
+      "13": { "value": "clickander/popunder", "label": "clickander/popunder" },
+      "14": { "value": "Rebrokering", "label": "Rebrokering" },
+      "15": { "value": "Motivated traffic", "label": "Motivated traffic" },
+      "16": { "value": "Adult", "label": "Adult" }
+    },
+    "rules": {
+      "1": "I readed and agree",
+      "2": "terms &",
+      "3": "coditions"
+    },
+    "signup": "Sign up",
+    "label": "More about results",
+    "contacts": "Your Telegram"
+  },
+  "footer": {
+    "telegram": "Telegram",
+    "contacts": "Contacts",
+    "faq": "FAQ",
+    "terms": "Terms & Conditions",
+    "policy" : "Privacy Policy"
+  },
+  "modal": {
+    "title": "Sing In",
+    "email": "Email",
+    "password": "Password",
+    "forgot": "Forgot password?",
+    "forgotTitle" : "Your Email",
+    "forgotSend" : "Send"
+  },
+  "policy": {
+    "title": {
+      "1": "PRIVACY POLICY",
+      "2": "Collection and storage of Your data",
+      "3": "Use of cookies",
+      "4": "Use of the information received",
+      "5": "Information security",
+      "6": "Disclosure of Your data",
+      "7": "Access to information",
+      "8": "Changes to the Privacy Policy",
+      "9": "Contacts"
+    },
+    "paragraph": {
+      "1": {
+        "1": "We respect Your right to privacy, and do not collect any personal data, except for those that we need for Your registration, identification, as well as for comfortable use of our services.",
+        "2": "By registering on the Lafabet.partners website (hereinafter referred to as the \"Website\"), You accept the Rules for Storing Personal information set out below."
+      },
+
+      "2": "We may collect and process the following information:",
+      "3": {
+        "1": "We may collect data about Your Internet usage through cookies. Cookies help us to improve the Website and make Your time more enjoyable. With the help of cookies, we are able to identify You as a registered member of the Website, as well as store various information about Your account in order to avoid re-entering this information as much as possible.",
+        "2": "You have the right to refuse the storage of cookies by selecting the appropriate option in Your browser settings. However, if You do this, you will partially lose the ability to use some elements of our website. We reserve the right to use cookies if You do not set up a rejection in your browser."
+      },
+
+      "4": "We reserve the right to use the information we have stored about You as follows:",
+      "5": "We have implemented a number of security mechanisms to ensure the confidentiality and security of Your personal information. We use secure server systems. All information is transmitted by the Hypertext Transfer Protocol Secure (HTTPs) protocol, encrypted using SSL/TLS technology and stored in reliable databases on our servers. It is accessed only by authorized specialists who undertake to maintain the confidentiality of the information provided.",
+      "6": "We will not disclose Your personal information to third parties, except in the following cases provided by law. We reserve the right to disclose Your personal data in order to fulfil any obligation established by law or an order of authorized state authorities.",
+      "7": "You have the right and the opportunity to make changes to Your personal data. You can do this to the extent that the Website allows, via your account.",
+      "8": "All possible changes in the rules and conditions for storing personal information are regulated by our general Terms and Conditions of the user agreement. On this page, You can always get acquainted with the latest version of these regulations.",
+      "9": "If You have any questions regarding this provision, You can contact our support service by e-mail "
+    },
+    "list": {
+      "1": {
+        "1": "Information provided when registering and updating information about yourself in your account;",
+        "2": "Information provided by You in any messages, including support requests, crash reports and other requests. We reserve the right to keep records of such messages;",
+        "3": "Data of payments made on the Website;",
+        "4": "Information about the configuration of Your computer, including the properties and parameters of the software and network."
+      },
+
+      "2": {
+        "1": "to provide You with access to the Website;",
+        "2": "to improve Website services;",
+        "3": "in order to identify You among other members of our Website, in matters of public posts of your data (for example, news, promotions, etc.);",
+        "4": "for a more accurate selection of advertising campaigns that meet Your interests;",
+        "5": "for various kinds of notifications about changes and updates to the Website and sending You other information related to the Website."
+      }
+    }
+  },
+  "faq" : {
+    "title" : {
+      "1" : "FAQ",
+      "2" : "What is the Lafabet.Partners affiliate program?",
+      "3" : "What traffic sources do we pay for?",
+      "4" : "What Geo do we pay for?",
+      "5" : "What is the CPA/Revenue Share payment model?",
+      "6" : "What is the payout period?",
+      "7" : "Where can I find out more about the product and working conditions?"
+    },
+    "paragraph" : {
+      "1" : "Lafabet.Partners is an affiliate program of the Lafabet project. By registering in the system, you get the opportunity to run and convert traffic to the Lafabet brand, receiving the payment set by the affiliate program according to the CPA or RevenueShare model.",
+      "2": "We accept almost all types of traffic, except for types that violate the law. It is prohibited to use any kind of images and mentions of politicians in advertising creatives, as well as political topics in advertising materials. We accept some sources only according to the Revenue Share model: capper traffic, motivated traffic, earning schemes, etc. You can always find out more details from your manager, who is assigned to you after Registration.",
+      "3" : "You can always find out the list of current Geo from your manager, as well as recommendations for working with these Geo.",
+      "4" : "The payment model determines the partner's remuneration system. Currently, we have 2 models available:",
+      "5" : "The reporting period established by the Lafabet.Partners Affiliate Program is 2 times a month. It is equal to half of a calendar month (usually 15 days): from the 1st to the 15th of the month, and from the 15th to the 30th (31st) day of the month inclusive.",
+      "6" : "You can write to the manager of the Lafabet.Partners affiliate program and get all the necessary information on working with the brand:"
+    },
+    "list" : {
+      "1" : "CPA (cost per action) – traffic payment is made for the first deposit made by the player",
+      "2" : "Revenue Share – traffic payment is made in the form of % of the casino profit that the players bring"
+    }
+  },
+  "conditions" : {
+    "email" :"All requests must be sent to the email address",
+    "paragraph" : {
+      "1" : {
+        "title" : "A partner",
+        "text" : "is a publisher (an individual who has reached the age of 18 or a legal entity) who accepts the terms of this document and works to promote the product of the Lafabet Partners Affiliate Program on the Internet;"
+      },
+      "2" : {
+        "title" : "The Affiliate Program",
+        "text" : "is a technical marketing platform that provides advertising materials to publishers to promote the product of the Lafabet Partners Affiliate Program on the Internet;"
+      },
+      "3" : {
+        "title" : "Product",
+        "text" : "is a project advertised through advertising materials (betting, casino, trading) on the Internet;"
+      },
+      "4" : {
+        "title" : "Advertising materials",
+        "text" : "are tools used by Partners to promote the product of the Affiliate Program on the Internet."
+      },
+      "5" : {
+        "title" : "Traffic",
+        "text" : " is a set of players who came as a result of the partner's placement of advertising materials on the Internet."
+      },
+      "6" : {
+        "title" : "Offers",
+        "text" : "mean the terms and conditions (including restrictions and rewards depending on the tariff and payment model), which together determine the information posted by the Partner(s) in order to promote the product of the Affiliate Program on the Internet."
+      },
+      "7" : {
+        "title" : "Payment models",
+        "text" : "are payment for a certain result of placement of advertising materials by a Partner on the Internet."
+      },
+      "8" : {
+        "title" : "CPA (cost per action)",
+        "text" : "— the result means making the first deposit by the attracted player."
+      },
+      "9" : {
+        "title" : "RevenueShare",
+        "text" : "is a percentage of Gross Gaming Revenue. Gross Gaming Revenue consists of the difference between the players' bets and their winnings and bonuses, minus the administrative fee (10%) and the commission fee from payments (10%) of the attracted player."
+      },
+      "10" : {
+        "title" : "Hybrid",
+        "text" : "consists of two paid results. First event (result) this is the first deposit made by the player. Second event (result) percentage of Gross Gaming Revenue, the amount of which pays off the amount of the 1st event for a cohort of players (minimum period of 3 months). Gross Gaming Revenue consists of the difference between the players' bets and their winnings and bonuses, minus the administrative fee (10%) and the commission fee from payments (10%) of the attracted player."
+      },
+      "11" : {
+        "title" : "Players",
+        "text" : " are persons who came to the product's website through the advertising material used by the Partner and registered a personal account."
+      },
+      "12" : {
+        "title" : "Hold",
+        "text" : "is the time during which a player must obtain the status of an \"Active Player\", and the affiliate program undertakes to check this status and either confirm it or reject it. In addition to checking the status, during the Hold the player is checked for violations of the rules of the Product in which the player has registered and the rules of the Affiliate Program."
+      },
+      "13" : {
+        "title" : "An active player",
+        "text" : " is a player who regularly returns to the Product, makes deposits (bets) and plays for real money."
+      },
+      "14" : {
+        "title" : "The reporting period",
+        "text" : "is a period during which the funds earned by the Partner are accumulated and calculated for the purpose of subsequent withdrawal of the latter to external payment systems."
+      },
+      "15" : {
+        "title" : "1.1.",
+        "text" : "When starting to work with the Lafabet Partners Affiliate Program, each Partner is obliged to read and accept this User Agreement."
+      },
+      "16" : {
+        "title" : "1.2.",
+        "text" : " By participating in the Affiliate Program, the Partner agrees that this User Agreement may be amended without prior notification of the Partner."
+      },
+      "17" : {
+        "title" : "1.3.",
+        "text" : " The Partner, by accepting the terms of the User Agreement, thereby confirms that he is 18 or older."
+      },
+      "18" : {
+        "title" : "1.4.",
+        "text" : "The Partner is fully responsible for the safety of personal confidential data for logging into the Lafabet Partners Affiliate Program system (login and password). The Affiliate Program is not responsible for the loss of personal confidential data by the Partner."
+      },
+      "19" : {
+        "title" : "1.5.",
+        "text" : "The Lafabet Partners Affiliate Program reserves the right to refuse cooperation to a particular Partner without explanation."
+      },
+      "20" : {
+        "title" : "1.6.",
+        "text" : "The Lafabet Partners Affiliate Program reserves the right to make changes to the User Agreement of the Affiliate Program. All documents published on the Affiliate program's website are considered valid at the moment. The chronology of changes in the rules of the Affiliate Program is not maintained."
+      },
+      "21" : {
+        "title" : "1.7.",
+        "text" : {
+          "1" : "The Pin-Up Partners affiliate program reserves the right not to pay the amount of the Partner's earnings under the CPA model if the Partner has attracted players who do not meet the minimum quality requirements (for example, multi accounts – multiple accounts with one player; more than 5 percent of users have requested a refund of the deposited funds (charge-back). In addition, if we detect unusual behaviour of players (a high percentage of players who do not return to the lafa.bet website; or less than 50 percent of repeated deposits on one stream), the Partner's profit can be calculated using the Revenue Share model.",
+          "2" : "The Lafabet Partners Affiliate Program reserves the right to change the Partner's financial balance if the player attracted by the Partner's link was suspected of fraudulent actions in relation to the Lafa.bet product."
+        }
+      },
+      "22" : {
+        "title" : "1.8.",
+        "text" : "Members of the Affiliate Program are prohibited from having accounts in Products registered as a result of their placement of advertising materials. In case of detection of such cases, both the Partner's account and the player's account in the Product are blocked with a full withdrawal of funds from the accounts. This rule applies equally to people who are personally acquainted with the partner."
+      },
+      "23" : {
+        "title" : "1.9.",
+        "text" : "The participants of the Affiliate Program are prohibited from using the so-called cookie stuffing, namely cookie stuffing for the Lafabet brand."
+      },
+      "24" : {
+        "title" : "1.10.",
+        "text" : "The Lafabet Partners affiliate program reserves the right to block the affiliate account in case of detection of motivated traffic aimed at avoiding the rules of the Lafabet product."
+      },
+      "25" : {
+        "title" : "1.11.",
+        "text" : "The affiliate program provides unique promotional materials, including links. Each Partner independently checks the operability of their links and the correctness of displaying additional parameters in their personal account. The lafabet.partners platform will not be able to track the players specified by the Partner if their links are not active."
+      },
+      "26" : {
+        "title" : "1.12.",
+        "text" : "The Postclick period saves cookies for the last 30 days. After this period, your parameters will be deleted."
+      },
+      "27" : {
+        "title" : "1.13.",
+        "text" : "According to the provisions of this affiliate program, it is prohibited to register as a Referral if you already have a valid affiliate account. Or, if you are a Referral of an affiliate account belonging to an individual or legal entity that you maintain or have access to. Members of the Affiliate Program are prohibited from having two or more partner accounts in the Lafabet Partners affiliate program. If there is a need to operate two or more accounts in the partner program, the partner undertakes to inform the support service and provide objective justifications for such a need."
+      },
+      "28" : {
+        "title" : "1.14.",
+        "text" : "The Lafabet Partners Affiliate Program reserves the right to request from the Partner the traffic sources on which the Partner advertises the Product. If the Partner refuses to provide these sources, the partner program reserves the right to terminate cooperation with the Partner."
+      },
+      "29" : {
+        "title" : "1.15.",
+        "text" : "The Affiliate Program reserves the right to block payments to the Partner if the administration of the Affiliate Program has reason to believe that the Partner has violated the rules for working with the Affiliate Program. Payments can be blocked for any period until the circumstances are clarified. If violations of the terms of cooperation are detected based on the results of the verification, the Partner Program reserves the right to block the partner's account without prior notice."
+      },
+      "30" : {
+        "title" : "1.16.",
+        "text" : "In case of systematic use of obscene language or insults of support staff in appeals, the affiliate program reserves the right to indefinitely refuse further online support to the partner or terminate cooperation with subsequent account blocking and resetting the partner balance."
+      },
+      "31" : {
+        "title" : "1.17.",
+        "text" : "Correspondence and personal communication with the administration, the affiliate manager or the support service of the affiliate program is considered closed information. The participants of the partner program are prohibited from providing and bringing to the public, public display, providing third parties with the opportunity to view/listen to classified information (or fragments thereof). In case of violation of this rule, the affiliate program reserves the right to terminate cooperation with the subsequent blocking of the account and resetting the partner balance."
+      },
+      "32" : {
+        "title" : "1.18.",
+        "text" : " It is prohibited to register a Partner's account for personal purposes using a referral link. In case of detection of fraudulent activities, the accounts of such Partners will be banned."
+      },
+      "33" : {
+        "title" : "1.19.",
+        "text" : " It is prohibited to use images/photos of politicians and political topics in advertising materials, if such advertising materials are found, the Partner's account will be banned."
+      },
+      "34" : {
+        "title" : "1.20.",
+        "text" : " It is not recommended to use domains in the zone .ru and .rf for the following sources: SEO sites, reviewers, own landing pages and pre-landing due to possible division."
+      },
+      "35" : {
+        "title" : "1.21.",
+        "text" : " It is prohibited to use someone else's content (texts, layout, design) to fill websites with requests related to the Lafabet brand used for SEO promotion. It is forbidden to use copies of publishers’ sites that have reached the top using bugs and vulnerabilities of the search network. In case of detection of such actions, the account of such a Partner will be disconnected from the Affiliate Program after an investigation by the Affiliate Program"
+      },
+      "36" : {
+        "title" : "1.22.",
+        "text" : "Brand traffic from contextual advertising and single/small-page sites created exclusively for groups of search queries Lafa bet/Lafabet, etc. is accepted only according to the CPA model. It is allowed to receive branded traffic from review sites using Revenue Share and Hybrid models, depending on Geo of the players."
+      },
+      "37" : {
+        "title" : "1.23.",
+        "text" : "Before starting work, as well as at the request of the Affiliate Program, the Partner undertakes to provide detailed information about the planned placement of advertising materials and materials planned for use in such placement for the purpose of advertising the Product. Including links to the placement websites, graphic content, banners, teasers, texts, videos and other information that is relevant to the advertising of the Product carried out by the Partner. If the placement is carried out on advertising media of third parties, the Partner undertakes to provide objective data confirming such placement, including but not limited to: screenshots of the statistics of third-party advertising accounts, screenshots of the preview of advertising materials, technical data on placement, and so on. If the Partner refuses to provide such objective data, the affiliate program reserves the right to terminate cooperation with the Partner without payment of remuneration."
+      },
+      "38" : {
+        "title" : "2.1.",
+        "text" : " The Partner's earnings are formed at the expense of the share of the net income of the product from the players attracted by this Partner. The percentage of the Partner's income depends on the offer, the personal tariff and the Product:"
+      },
+      "39" : {
+        "title" : "3.1.",
+        "text" : " The balance sheet and reports of the Affiliate Program work in a single settlement currency – the US dollar."
+      },
+      "40" : {
+        "title" : "3.2.",
+        "text" : "The reporting period established by the Lafabet Partners Affiliate Program is equal to half of a calendar month (usually 15 days): from the 1st to the 15th of the month, and from the 15th to the 30th (31st) day of the month inclusive."
+      },
+      "41" : {
+        "title" : "3.3.",
+        "text" : "Payments are made in the first 3 days after the closing of the reporting period, if there is a positive balance on the partner's account."
+      },
+      "42" : {
+        "title" : "3.4.",
+        "text" : "The change of payment details is carried out at least 5 working days before the end of the current reporting period, and it is required to notify the personal manager."
+      },
+      "43" : {
+        "title" : "3.5.",
+        "text" : "In order to make a payment, it is necessary to fill in the payment data correctly in the Finance section of the Partner Program's personal account."
+      },
+      "44" : {
+        "title" : "3.6.",
+        "text" : "The delay period for accrual of payments (Hold) is determined by the administration of the Partner Program at its discretion."
+      },
+      "45" : {
+        "title" : "3.7.",
+        "text" : "At this stage, the Lafabet Partners Affiliate Program does not provide early payments of partner remuneration. The minimum possible payout from the partner account is $15."
+      },
+      "46" : {
+        "title" : "3.8.",
+        "text" : "The negative balance is NOT transferred to the next month if the Lafabet Partners Partner requests the opportunity to suspend the accrual of commission for users with negative income, in case of a positive decision by the Administration of the Partner Program."
+      },
+      "47" : {
+        "title" : "3.9.",
+        "text" : " If the money has been on the Partner's balance for more than 6 months and has not been withdrawn, then payments on the account are blocked, and the funds are debited. After another 6 months, such an account is removed from the Affiliate Program. If the Partner's account has been blocked, then after 30 days from the moment of blocking, the balance in the account is reset to zero without the possibility of recovery."
+      },
+      "48" : {
+        "title" : "3.10.",
+        "text" : "The Lafabet Partners affiliate program reserves the right to transfer to the RevenueShare tariff streams of players for the reporting period attracted by the affiliate link, if at the end of the month the number of active players becomes less than 10%, even if the traffic passes KPI."
+      },
+      "49" : {
+        "title" : "3.11.",
+        "text" : {
+          "1" : "The Lafabet Partners affiliate program does not make payments if the publisher has not attracted at least 10 players within 6 months since the start of work with the affiliate program. If after 6 months since the traffic launch, the number of players has not reached 10, then the earnings of the publisher (CPA/RS) are debited from the balance.",
+          "2" : "If the anti-fraud department has a suspicion about the traffic attracted by publishers, the affiliate program has the right to raise the qualifications of up to 30 active players for receiving a payout."
+        }
+      },
+      "50" : {
+        "title" : "4.1.",
+        "text" : "Procedure for consideration of dispute situations:"
+      },
+      "51" : {
+        "title" : "4.2.",
+        "text" : "Consideration of Partner requests and resolution of disputes:"
+      },
+      "52" : {
+        "title" : "The Partner's request must contain:",
+        "text" : ""
+      },
+      "53" : {
+        "title" : "The Affiliate program has the right to refuse to consider an application in the following cases:",
+        "text" : ""
+      }
+    },
+    "title" : {
+      "0" : "Terms and Conditions",
+      "1" : "Terms of the affiliate program",
+      "2" : "1. Rules for working with the Pin-Up Partners Affiliate Program",
+      "3" : "For violation of the current rules and conditions of cooperation, the Affiliate Program reserves the right to close the Partner's personal account in the Lafabet Partners system without further payment of funds and explanation of the reasons for blocking.",
+      "4" : "2. Commission structure of the affiliate program",
+      "5" : "The Referral partner program Pin-up.partners is also provided. The remuneration of Partners (Refbringer) is from 3% of all profits received from new Partners (Referrals) attracted by the referral link of the Refbringer.",
+      "6" : "3. Procedure and terms of calculations with Partners",
+      "7" : "4. The procedure for resolving disputes"
+    },
+    "list" : {
+      "1" : {
+        "1" : "40% of the players' commission from the Casino project",
+        "2" : "40% of players' commissions from the Sport project"
+      },
+      "2" : {
+        "1" : "The affiliate program does not accept for consideration and does not consider disputable appeals for lost profits.",
+        "2" : "The affiliate program does not compensate for moral damage.",
+        "3" : "@",
+        "4" : "The maximum period for consideration of applications sent by the Partner is 15-20 working days.",
+        "5" : "If there is a dispute that is not specified in this Agreement, the Company reserves the right to make a decision in its sole discretion."
+      },
+      "3" : {
+        "1" : "The parties are trying to settle all disputes through negotiations and correspondence. The Partner's requests are accepted by the Affiliate Program for consideration only in writing and no later than three calendar days from the date of the dispute.",
+        "2" : "All requests of the Partner are considered official and are considered as requests in writing form, by e-mail to the addresses of the relevant services of the Affiliate Program. Written appeals made with the help of online communication programs, such as Telegram and other messengers, are not considered written."
+      },
+      "4" : {
+        "1" : "Full name;",
+        "2" : "Email;",
+        "3" : "account number;",
+        "4" : "date and time of the dispute;",
+        "5" : "the essence of the appeal."
+      },
+      "5" : {
+        "1" : "if the application does not meet the conditions listed in this paragraph of the Agreement;",
+        "2" : "if the message contains obscene language and/or insults to the Affiliate Program or its employees;",
+        "3" : "if the request contains threats against the Affiliate Program or its employees;",
+        "4" : "if the threat of vilification of the image of the Affiliate Program in social networks and other resources is used as a Partner's argument."
+      },
+      "6" : {
+        "1" : "The term of consideration of the Partner's claim Affiliate Program is no more than twenty working days from the date of receipt of all necessary and sufficient data from the Partner related to this claim and necessary for its resolution.",
+        "2" : "In case of disagreement on the Partner's transactions or account status, the parties review the Partner's transaction protocols based on the Affiliate Program data.",
+        "3" : "If the Partner violates any of the points listed above, the Affiliate Program reserves the right to refuse to cooperate with the Partner.",
+        "4" : "In case of failure to reach an agreement through negotiations and correspondence within 3 (three) months from the moment of the dispute, its further consideration takes place in court in accordance with the current legislation (at the place of registration of the LafaBet Partners Affiliate Program)."
+      }
+    }
+  }
+}
