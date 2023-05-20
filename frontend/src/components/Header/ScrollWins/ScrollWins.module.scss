@@ -1,0 +1,31 @@
+.SlowScroll {
+  position: relative;
+
+  .users {
+    color: #fff;
+    padding: 20px;
+    width: unset !important;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 26%, rgb(0, 0, 0) 75%);
+    z-index: 1;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 26%, rgb(0, 0, 0) 75%);
+    z-index: 1;
+  }
+}
