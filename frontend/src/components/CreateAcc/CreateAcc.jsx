@@ -95,7 +95,7 @@ const CreateAcc = () => {
               </div>
               <TextArea />
               <div className={styles.section_checkbox}>
-                <Input type="checkbox" />
+                <Input type="checkbox" className="checkbox" />
                 <label>I readed and agree terms & coditions</label>
               </div>
               <Button type="submit" value="Sign up" className={styles.btn} />
