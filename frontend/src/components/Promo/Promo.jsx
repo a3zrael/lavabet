@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Promo.module.scss";
 import { useParallax } from "react-scroll-parallax";
 

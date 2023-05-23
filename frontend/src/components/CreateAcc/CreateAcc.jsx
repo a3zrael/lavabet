@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { MD5 } from "crypto-js";
 import { Navigation, Pagination } from "swiper";
 import useWindowSize from "../../hooks/useWindowSize";
+import axios from "axios";
 
 import styles from "./CreateAcc.module.scss";
 import classNames from "classnames";
@@ -22,7 +23,7 @@ import logo1 from "./img/logo1.png";
 const CreateAcc = () => {
   const size = useWindowSize();
 
-  const [data, setData] = useState({
+  const [userData, setUserData] = useState({
     email: "",
     pass: "",
     passport: "",
@@ -31,16 +32,21 @@ const CreateAcc = () => {
   async function submitForm(e) {
     e.preventDefault();
 
-    let formData = new FormData();
-    formData.append("data", JSON.stringify(data));
-
     try {
-      let response = await fetch("http://localhost:1337/api/user-data/", {
-        method: "POST",
-        body: formData,
-      });
+      const { data, status } = await axios.post(
+        "http://localhost:1337/api/auth/local/register",
+        {
+          email: userData.email,
+          password: userData.pass,
+          username: userData.email,
+          passport: userData.passport,
+        }
+      );
 
-      let result = await response.json();
+      // let result = await response.json();
+      if (status === 200 || status === 201) {
+        localStorage.setItem("access_token", data.jwt);
+      }
     } catch (error) {
       console.log("error", error);
     } finally {
@@ -58,16 +64,16 @@ const CreateAcc = () => {
               <div className={styles.section_form}>
                 <Input
                   onChange={(e) =>
-                    setData((prev) => ({ ...prev, email: e.target.value }))
+                    setUserData((prev) => ({ ...prev, email: e.target.value }))
                   }
                   type="text"
                   placeholder="Username"
                 />
                 <Input
                   onChange={(e) =>
-                    setData((prev) => ({
+                    setUserData((prev) => ({
                       ...prev,
-                      pass: MD5(e.target.value).toString(),
+                      pass: e.target.value,
                     }))
                   }
                   type="password"
@@ -78,7 +84,10 @@ const CreateAcc = () => {
                 </div>
                 <Input
                   onChange={(e) =>
-                    setData((prev) => ({ ...prev, passport: e.target.value }))
+                    setUserData((prev) => ({
+                      ...prev,
+                      passport: e.target.value,
+                    }))
                   }
                   type="text"
                   placeholder="Your passport"
@@ -86,7 +95,7 @@ const CreateAcc = () => {
               </div>
               <TextArea />
               <div className={styles.section_checkbox}>
-                <Input type="checkbox" />
+                <Input type="checkbox" className="checkbox" />
                 <label>I readed and agree terms & coditions</label>
               </div>
               <Button type="submit" value="Sign up" className={styles.btn} />
