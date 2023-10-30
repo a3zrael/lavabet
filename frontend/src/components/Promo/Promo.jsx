@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Promo.module.scss";
 import { useParallax } from "react-scroll-parallax";
+import { motion } from "framer-motion";
 
 import Button from "../../baseComponents/Button/Button.jsx";
 import PromoList from "../../baseComponents/PromoList/PromoList.jsx";
@@ -14,8 +15,24 @@ const Promo = () => {
     translateY: [-200, 200],
   });
 
+  const textAnimation = {
+    hidden: {
+      x: -100,
+      opacity: 0,
+    },
+    visible: (custom) => ({
+      x: 0,
+      opacity: 1,
+      transition: { delay: custom * 0.2, duration: 1 },
+    }),
+  };
+
   return (
-    <section className={styles.section_screen}>
+    <motion.section
+      className={styles.section_screen}
+      initial="hidden"
+      whileInView="visible"
+    >
       <div className={styles.section_parallax_box} ref={parallax.ref}>
         <video src={videoBG} autoPlay loop muted />
       </div>
@@ -27,9 +44,13 @@ const Promo = () => {
       <div className={styles.section_inner}>
         <div className={styles.section_wrap}>
           <div className={styles.section_title_box}>
-            <h1 className={styles.section_title}>
+            <motion.h1
+              variants={textAnimation}
+              custom={0.2}
+              className={styles.section_title}
+            >
               10 years of experience in traffic arbitrage taught us:
-            </h1>
+            </motion.h1>
           </div>
           <div className={styles.arrow_box}>
             <img className={styles.arrow} src={arrowDown} alt="" />
@@ -37,7 +58,7 @@ const Promo = () => {
         </div>
         <PromoList className={styles.box__list} />
       </div>
-    </section>
+    </motion.section>
   );
 };
 

@@ -74,8 +74,9 @@ const Header = () => {
             <Select
               options={list}
               defaultValue={list[0]}
-              styles={colorStyles}
-              className="select"
+              classNamePrefix="custom_select_header"
+              // styles={colorStyles}
+              isSearchable={false}
             />
           </div>
 

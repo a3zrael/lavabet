@@ -1,6 +1,13 @@
 .header {
-  background-color: #000000;
+  background-color: rgba(#000000, 0.3);
   font-family: "SF";
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  @media (max-width: 767px) {
+    position: relative;
+  }
 
   .container {
     max-width: 1680px;
@@ -9,7 +16,6 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-
     @media (max-width: 767px) {
       padding: 0 16px;
     }
@@ -17,7 +23,7 @@
     .box__left {
       display: flex;
       justify-content: space-evenly;
-
+      z-index: 6;
       @media (max-width: 767px) {
         .logo {
           width: 143px;
@@ -45,10 +51,10 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-
+      z-index: 6;
       .lang {
         padding: 0 40px;
-
+        z-index: 100;
         @media (max-width: 767px) {
           padding: 0;
         }
@@ -88,6 +94,9 @@
   }
 
   .modal__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-style: normal;
     font-weight: 600;
     font-size: 2vw;
@@ -95,6 +104,10 @@
     padding: 13px 0;
 
     color: #ffffff;
+
+    @media (max-width: 767px) {
+      font-size: 30px;
+    }
   }
   .modal_box {
     display: flex;
