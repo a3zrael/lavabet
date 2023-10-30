@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { motion } from "framer-motion";
 import { MD5 } from "crypto-js";
 import { Navigation, Pagination } from "swiper";
 import useWindowSize from "../../hooks/useWindowSize";
@@ -15,7 +16,7 @@ import Input from "../../baseComponents/Input/Input.jsx";
 import SelectComp from "../../baseComponents/Select/SelectComp.jsx";
 import TextArea from "../../baseComponents/TextArea/TextArea.jsx";
 import CardSlider from "../../baseComponents/CardSlider/CardSlider.jsx";
-import { arrayData, list, colorStyles } from "./CreateAcc.data.js";
+import { arrayData, list } from "./CreateAcc.data.js";
 
 import img1 from "./img/img1.svg";
 import logo1 from "./img/logo1.png";
@@ -53,13 +54,53 @@ const CreateAcc = () => {
     }
   }
 
+  const textAnimationX = {
+    hidden: {
+      x: -100,
+      opacity: 0,
+    },
+    visible: (custom) => ({
+      x: 0,
+      opacity: 1,
+      transition: { delay: custom * 0.2, duration: 0.9 },
+    }),
+  };
+
+  const textAnimationY = {
+    hidden: {
+      x: 100,
+      opacity: 0,
+    },
+    visible: (custom) => ({
+      x: 0,
+      opacity: 1,
+      transition: { delay: custom * 0.2, duration: 0.6 },
+    }),
+  };
+
   return (
-    <section className={styles.section_screen}>
+    <motion.section
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ amount: 0.2 }}
+      className={styles.section_screen}
+    >
       <div className={styles.section_inner}>
         <div className={styles.wrap}>
           <div className={styles.circle} />
-          <h3 className={styles.section_title}>Create an account</h3>
-          <form onSubmit={submitForm}>
+          <motion.h3
+            variants={textAnimationX}
+            custom={0}
+            className={styles.section_title}
+          >
+            Create an account
+          </motion.h3>
+          <motion.form
+            variants={textAnimationY}
+            custom={0}
+            className={styles.section_title}
+            onSubmit={submitForm}
+          >
             <div className={styles.form_wrap}>
               <div className={styles.section_form}>
                 <Input
@@ -80,7 +121,10 @@ const CreateAcc = () => {
                   placeholder="Password"
                 />
                 <div className={styles.section_select}>
-                  <SelectComp options={list} styles={colorStyles} />
+                  <SelectComp
+                    options={list}
+                    classNamePrefix="custom_select_acc"
+                  />
                 </div>
                 <Input
                   onChange={(e) =>
@@ -100,7 +144,7 @@ const CreateAcc = () => {
               </div>
               <Button type="submit" value="Sign up" className={styles.btn} />
             </div>
-          </form>
+          </motion.form>
         </div>
         <h3 className={styles.section_title_slider}>See you at the:</h3>
         <Swiper
@@ -121,7 +165,7 @@ const CreateAcc = () => {
           ))}
         </Swiper>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

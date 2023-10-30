@@ -17,39 +17,3 @@ export const list = [
     { value: "6n", label: "En" },
     { value: "7u", label: "Ru" },
 ];
-
-export const colorStyles = {
-    valueContainer: () => ({
-        maxWidth: '75%',
-        whiteSpace: 'nowrap',
-        display: 'flex',
-        gap: '4px',
-        alignItems: 'center',
-        height: '40px',
-        'text-decoration': 'none',
-        outline: 'none',
-    }),
-    control: (styles) => ({
-        ...styles,
-        backgroundColor: "black",
-        border: 'none',
-        color: 'white',
-    }),
-    option: (styles) => ({ ...styles, backgroundColor: "black", }),
-    indicatorSeparator: (styles) => ({ ...styles, backgroundColor: "black" }),
-    placeholder: (styles) => ({ ...styles, color: "white", value: "Cooperation model" }),
-    multiValue: () => ({
-        background: '#black',
-        display: 'flex',
-        alignItems: 'center',
-        border: '0.6px solid #bd6ab6',
-        borderRadius: '5px',
-        padding: '5px',
-    }),
-
-    multiValueLabel: () => ({
-        color: 'white ',
-        background: '#black',
-    }),
-
-}

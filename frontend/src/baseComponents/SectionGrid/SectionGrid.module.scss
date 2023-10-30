@@ -63,7 +63,7 @@
       }
 
       .grid_text {
-        width: 50%;
+        width: 70%;
         font-style: normal;
         font-weight: 600;
         font-size: 21px;
@@ -81,7 +81,7 @@
       img {
         max-width: 35%;
         @media screen and (max-width: 375px) {
-          max-width: 30%;
+          max-width: 10vw;
         }
       }
     }
