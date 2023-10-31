@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { motion } from "framer-motion";
-import { MD5 } from "crypto-js";
 import { Navigation, Pagination } from "swiper";
 import useWindowSize from "../../hooks/useWindowSize";
 import axios from "axios";
@@ -13,7 +12,7 @@ import "swiper/css/navigation";
 
 import Button from "../../baseComponents/Button/Button.jsx";
 import Input from "../../baseComponents/Input/Input.jsx";
-import SelectComp from "../../baseComponents/Select/SelectComp.jsx";
+import CustomSelect from "../../baseComponents/CustomSelect/CustomSelect.jsx";
 import TextArea from "../../baseComponents/TextArea/TextArea.jsx";
 import CardSlider from "../../baseComponents/CardSlider/CardSlider.jsx";
 import { arrayData, list } from "./CreateAcc.data.js";
@@ -120,12 +119,12 @@ const CreateAcc = () => {
                   type="password"
                   placeholder="Password"
                 />
-                <div className={styles.section_select}>
-                  <SelectComp
+                {/* <div className={styles.section_select}>
+                  <CustomSelect
                     options={list}
                     classNamePrefix="custom_select_acc"
                   />
-                </div>
+                </div> */}
                 <Input
                   onChange={(e) =>
                     setUserData((prev) => ({

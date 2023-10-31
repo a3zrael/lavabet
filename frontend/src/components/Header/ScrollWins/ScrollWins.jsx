@@ -1,10 +1,9 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper";
-
+import { Autoplay } from "swiper";
 import styles from "./ScrollWins.module.scss";
 
 import array from "./dataScroll.jsx";
+import React from "react";
 
 const ScrollWins = (props) => {
   return (

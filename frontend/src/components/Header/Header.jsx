@@ -15,11 +15,35 @@ import { list, colorStyles } from "./Header.data.js";
 const Header = () => {
   const [modalActive, setModalActive] = useState(false);
   const [userData, setUserData] = useState({});
+  const [isHidden, setIsHidden] = useState(false);
   const access_token = localStorage.getItem("access_token");
   const [inputVal, setInputVal] = useState({
     email: "",
     pass: "",
   });
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= 70) {
+        setIsHidden(true);
+      } else {
+        setIsHidden(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const blockStyle = {
+    display: isHidden ? 'none' : 'block',
+    opacity: isHidden ? 0 : 1,
+    transition: 'height 0.3s ease, opacity 0.3s ease',
+  };
+
 
   useEffect(() => {
     if (access_token) {
@@ -87,8 +111,8 @@ const Header = () => {
           />
         </div>
       </div>
-      <div className={styles.container__scroll}>
-        <ScrollWins />
+      <div style={blockStyle} className={styles.container__scroll}>
+        <ScrollWins/>
       </div>
       <Modal active={modalActive} setActive={setModalActive}>
         {userData?.email ? (

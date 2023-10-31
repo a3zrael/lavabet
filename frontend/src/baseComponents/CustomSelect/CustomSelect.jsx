@@ -2,10 +2,8 @@ import React from "react";
 import Select from "react-select";
 import makeAnimated from "react-select/animated";
 
-import styles from "./SelectComp.module.scss";
-import classNames from "classnames";
 
-const SelectComp = (props) => {
+const CustomSelect = (props) => {
   const { classNamePrefix, options, styles, defaultValue, placeholder } = props;
   const animatedComponents = makeAnimated();
   return (
@@ -19,4 +17,4 @@ const SelectComp = (props) => {
   );
 };
 
-export default SelectComp;
+export default CustomSelect;
