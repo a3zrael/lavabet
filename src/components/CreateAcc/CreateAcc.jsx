@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { motion } from "framer-motion";
 import { Navigation, Pagination } from "swiper";
-import useWindowSize from "../../hooks/useWindowSize";
+import useWindowSize from "../../hooks/useWindowSize.js";
 import axios from "axios";
 
 import styles from "./CreateAcc.module.scss";

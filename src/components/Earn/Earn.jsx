@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./Earn.module.scss";
 import SectionGrid from "../../baseComponents/SectionGrid/SectionGrid.jsx";
 
-import { array } from "./Earn.data";
+import { array } from "./Earn.data.js";
 import videoBg from "./img/HQback.mp4";
 
 const Earn = () => {

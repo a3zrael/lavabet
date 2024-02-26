@@ -3,8 +3,8 @@ import styles from "./WhatUNeed.module.scss";
 import { motion } from "framer-motion";
 import Button from "../../baseComponents/Button/Button.jsx";
 
-import { arrayData } from "./WhatUNeed.data";
-import { arrayData2 } from "./WhatUNeed.data";
+import { arrayData } from "./WhatUNeed.data.js";
+import { arrayData2 } from "./WhatUNeed.data.js";
 
 import SectionGrid from "../../baseComponents/SectionGrid/SectionGrid.jsx";
 
