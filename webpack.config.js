@@ -23,7 +23,7 @@ module.exports = (env, argv) => {
         {
           test: /\.(scss|css)$/,
           use: [
-            isDevelopment ? "style-loader" : MiniCssExtractPlugin.loader,
+            // isDevelopment ? "style-loader" : MiniCssExtractPlugin.loader,
             "css-loader",
             "postcss-loader",
             "sass-loader",
